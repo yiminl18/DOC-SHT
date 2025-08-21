@@ -8,6 +8,11 @@ from typing import List, Dict, Any, Tuple, Optional
 import re
 import os
 import random
+import sys
+
+# Add the core directory to the path to import phrase_extraction
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from phrase_extraction import extract_phrases_with_pdfplumber
 
 def is_valid_phrase(text: str) -> bool:
     """
@@ -164,93 +169,7 @@ def phrase_visual_pattern_extraction(file_path: str) -> List[Dict[str, Any]]:
                 
         return phrases
     
-    def extract_text_from_normal_pdf(doc) -> List[Dict[str, Any]]:
-        """Extract text from normal (text-based) PDF."""
-        phrases = []
-        phrase_id = 0
-        
-        for page_num in range(len(doc)):
-            page = doc[page_num]
-            
-            # Get text blocks with detailed information
-            blocks = page.get_text("dict")
-            
-            for block in blocks["blocks"]:
-                if "lines" in block:  # Text block
-                    for line in block["lines"]:
-                        for span in line["spans"]:
-                            text = span["text"].strip()
-                            # Filter out empty phrases, whitespace-only phrases, and special characters
-                            if is_valid_phrase(text):
-                                # Get bounding box
-                                bbox = span["bbox"]
-                                
-                                # Get font information
-                                font_name = span.get("font", "Unknown")
-                                font_size = span.get("size", 12)
-                                
-                                # Determine if text is bold
-                                # Check font flags or font name for bold indicators
-                                is_bold = 0
-                                if "bold" in font_name.lower() or "Bold" in font_name:
-                                    is_bold = 1
-                                elif "flags" in span:
-                                    # Font flags: bit 20 is bold
-                                    flags = span["flags"]
-                                    if flags & (1 << 20):  # Bold flag
-                                        is_bold = 1
-                                
-                                # Determine if text is underlined
-                                # Check font flags for underline indicators
-                                is_underline = 0
-                                if "flags" in span:
-                                    flags = span["flags"]
-                                    if flags & (1 << 4):  # Underline flag (bit 4)
-                                        is_underline = 1
-                                
-                                # Check if all letters are capitalized
-                                all_cap = 1 if text.isupper() and text.isalpha() else 0
-                                
-                                # Check if phrase starts with a number
-                                num_st = 1 if text and text[0].isdigit() else 0
-                                
-                                # Check if phrase is centered on the page
-                                page_width = page.rect.width
-                                phrase_center_x = (bbox[0] + bbox[2]) / 2
-                                page_center_x = page_width / 2
-                                # Heuristic: consider centered if within 20% of page center
-                                center_threshold = page_width * 0.2
-                                is_center = 1 if abs(phrase_center_x - page_center_x) <= center_threshold else 0
-                                
-                                # Each span already has consistent visual properties (font, size, bold)
-                                # No need to split - treat each span as a phrase
-                                phrases.append({
-                                    'id': phrase_id,
-                                    'phrase': text,
-                                    'bbox': bbox,
-                                    'page': page_num,
-                                    'font': font_name,
-                                    'size': font_size,
-                                    'bold': is_bold,
-                                    'is_underline': is_underline,
-                                    'all_cap': all_cap,
-                                    'num_st': num_st,
-                                    'is_center': is_center
-                                })
-                                phrase_id += 1
-        
-        return phrases
-    
-    def sort_phrases_by_reading_order(phrases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Sort phrases by reading order (top to bottom, left to right)."""
-        def sort_key(phrase):
-            bbox = phrase['bbox']
-            page = phrase['page']
-            # Primary sort by page, then by y-coordinate, then by x-coordinate
-            return (page, bbox[1], bbox[0])
-        
-        return sorted(phrases, key=sort_key)
-    
+
     try:
         # Open the PDF document
         doc = fitz.open(file_path)
@@ -265,11 +184,9 @@ def phrase_visual_pattern_extraction(file_path: str) -> List[Dict[str, Any]]:
             print("Detected scanned PDF - using OCR")
             phrases = extract_text_from_scanned_pdf(doc)
         else:
-            print("Detected normal PDF - extracting text directly")
-            phrases = extract_text_from_normal_pdf(doc)
-        
-        # Sort phrases by reading order
-        phrases = sort_phrases_by_reading_order(phrases)
+            print("Detected normal PDF - using pdfplumber")
+            # Use pdfplumber for normal PDFs
+            phrases = extract_phrases_with_pdfplumber(file_path)
         
         # Clean up
         doc.close()
@@ -314,10 +231,9 @@ def phrase_merge(phrases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             current_phrase['font'] == last_phrase['font'] and
             current_phrase['size'] == last_phrase['size'] and
             current_phrase['bold'] == last_phrase['bold'] and
-            current_phrase['is_underline'] == last_phrase['is_underline'] and
-            current_phrase['all_cap'] == last_phrase['all_cap']
+            current_phrase['is_underline'] == last_phrase['is_underline'] 
         )
-        
+        # and current_phrase['all_cap'] == last_phrase['all_cap']
         # Additional check: don't merge underlined and bold phrases if they're not in the same row
         if can_merge and (current_phrase['is_underline'] == 1 and current_phrase['bold'] == 1):
             # Check if phrases are in the same row (similar y-coordinates)
@@ -787,7 +703,7 @@ if __name__ == "__main__":
         # Example usage
         pdf_file = "raw_data/paper/A Lived Informatics Model of Personal Informatics.pdf"
         phrases = phrase_visual_pattern_extraction(pdf_file)
-
+        
         # Save original phrases to JSON file
         save_phrases_to_json(phrases, f"{out_folder}/extracted_phrases.json")
         
@@ -814,34 +730,11 @@ if __name__ == "__main__":
         
         # Save tree structure to JSON file
         save_tree_to_json(tree_nodes, f"{out_folder}/tree_structure.json")
-        print("Full pipeline completed and results saved.")
+        # print("Full pipeline completed and results saved.")
     
-    # Print statistics
-    print(f"Original phrases: {len(phrases)}")
-    print(f"Merged phrases: {len(merged_phrases)}")
-    print(f"Clusters: {len(clusters)}")
-    print(f"Filtered clusters: {len(filtered_clusters)}")
-    print(f"Tree nodes: {len(tree_nodes)}")
     
-    # Print cluster information if available
-    # if clusters:
-    #     print("\nCluster information:")
-    #     for i, cluster in enumerate(clusters[:3]):  # Show first 3 clusters
-    #         print(f"Cluster {i}: {cluster['visual_properties']} - {len(cluster['phrases'])} phrases")
     
-    # Print filtered cluster information if available
-    # if filtered_clusters:
-    #     print("\nFiltered cluster information:")
-    #     for i, cluster in enumerate(filtered_clusters[:3]):  # Show first 3 filtered clusters
-    #         print(f"Filtered Cluster {i}: {cluster['visual_properties']} - {len(cluster['phrases'])} phrases")
-    
-    # Print tree structure information
-    # if tree_nodes:
-    #     print("\nTree structure information:")
-    #     print(f"Root node: {tree_nodes[0]}")
-    #     print(f"Number of levels: {max(node['height'] for node in tree_nodes) if tree_nodes else 0}")
-    
-    # Print tree visualization
+    #Print tree visualization
     print("\nTree Visualization:")
     #output_file = 'out/paper/tree_visualization.txt'
     node_ids = build_id_index(tree_nodes)
