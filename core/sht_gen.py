@@ -682,7 +682,7 @@ def cluster_filter(clusters: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 # Example usage and testing
 if __name__ == "__main__":
-    out_folder = 'out/civic'
+    out_folder = 'out/paper'
     os.makedirs(out_folder, exist_ok=True)
     
     tree_structure_file = f"{out_folder}/tree_structure.json"
@@ -726,7 +726,7 @@ if __name__ == "__main__":
     else:
         print("No existing tree structure found, running full pipeline...")
         # Example usage
-        pdf_file = "raw_data/civic/https:www.malibucity.org:AgendaCenter:ViewFile:Agenda:_01262022-1835 (dragged) copy.pdf"
+        pdf_file = "raw_data/paper/A Lived Informatics Model of Personal Informatics.pdf"
         phrases = phrase_visual_pattern_extraction(pdf_file)
         
         # Save original phrases to JSON file
