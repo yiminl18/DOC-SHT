@@ -1,0 +1,787 @@
+[
+  {
+    "cluster_id": 6,
+    "smallest_id": 6,
+    "visual_properties": {
+      "font": "Arial,Bold",
+      "size": 9.0,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 1
+    },
+    "phrases": [
+      {
+        "id": 6,
+        "phrase": "ABSTRACT",
+        "bbox": [
+          54.0,
+          157.75502014160156,
+          105.9983901977539,
+          167.7990264892578
+        ],
+        "page": 0,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 62,
+        "phrase": "INTRODUCTION",
+        "bbox": [
+          54.0,
+          448.2750244140625,
+          125.50680541992188,
+          458.3190002441406
+        ],
+        "page": 0,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 111,
+        "phrase": "BACKGROUND",
+        "bbox": [
+          54.0,
+          474.6150207519531,
+          122.49362182617188,
+          484.65899658203125
+        ],
+        "page": 1,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 134,
+        "phrase": "METHODS",
+        "bbox": [
+          316.79998779296875,
+          170.83497619628906,
+          364.3019714355469,
+          180.8789825439453
+        ],
+        "page": 2,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 618,
+        "phrase": "DISCUSSION",
+        "bbox": [
+          54.0,
+          61.33498001098633,
+          112.48199462890625,
+          71.37898254394531
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 631,
+        "phrase": "CONCLUSION",
+        "bbox": [
+          316.79998779296875,
+          449.83502197265625,
+          379.78204345703125,
+          459.8789978027344
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 640,
+        "phrase": "ACKNOWLEDGMENTS",
+        "bbox": [
+          316.79998779296875,
+          581.1748657226562,
+          417.3418273925781,
+          591.2188720703125
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 665,
+        "phrase": "REFERENCES",
+        "bbox": [
+          54.0,
+          61.33498001098633,
+          117.99180603027344,
+          71.37898254394531
+        ],
+        "page": 10,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "smallest_id": 58,
+    "visual_properties": {
+      "font": "Arial,Bold",
+      "size": 9.0,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 58,
+        "phrase": "Author Keywords",
+        "bbox": [
+          54.0,
+          381.07501220703125,
+          131.52149963378906,
+          391.1189880371094
+        ],
+        "page": 0,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 60,
+        "phrase": "ACM Classification Keywords",
+        "bbox": [
+          54.0,
+          420.43499755859375,
+          183.5099639892578,
+          430.4789733886719
+        ],
+        "page": 0,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 107,
+        "phrase": "Starting to Track",
+        "bbox": [
+          316.79998779296875,
+          338.1150207519531,
+          390.8393859863281,
+          348.15899658203125
+        ],
+        "page": 1,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 113,
+        "phrase": "Models of Personal Informatics",
+        "bbox": [
+          54.0,
+          525.4349365234375,
+          189.9630126953125,
+          535.4789428710938
+        ],
+        "page": 1,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 129,
+        "phrase": "How People Track",
+        "bbox": [
+          316.79998779296875,
+          682.9349975585938,
+          396.8000183105469,
+          692.97900390625
+        ],
+        "page": 1,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 138,
+        "phrase": "Survey Methods",
+        "bbox": [
+          316.79998779296875,
+          428.6549987792969,
+          388.86041259765625,
+          438.698974609375
+        ],
+        "page": 2,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 144,
+        "phrase": "Lapsing and Infrequent Use",
+        "bbox": [
+          54.0,
+          562.8148803710938,
+          175.04913330078125,
+          572.85888671875
+        ],
+        "page": 2,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 163,
+        "phrase": "Limitations",
+        "bbox": [
+          316.79998779296875,
+          130.8150177001953,
+          367.3106689453125,
+          140.85902404785156
+        ],
+        "page": 3,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 182,
+        "phrase": "DEVELOPMENT OF A LIVED INFORMATICS MODEL",
+        "bbox": [
+          316.79998779296875,
+          423.6750183105469,
+          540.8541870117188,
+          433.718994140625
+        ],
+        "page": 3,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 184,
+        "phrase": "Interview Methods",
+        "bbox": [
+          54.0,
+          507.0749206542969,
+          134.97659301757812,
+          517.118896484375
+        ],
+        "page": 3,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 186,
+        "phrase": "Deciding to Track",
+        "bbox": [
+          316.79998779296875,
+          595.514892578125,
+          394.7939453125,
+          605.5588989257812
+        ],
+        "page": 3,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 348,
+        "phrase": "Using Tools for Value and Insight",
+        "bbox": [
+          316.79998779296875,
+          476.2950134277344,
+          462.32647705078125,
+          486.3389892578125
+        ],
+        "page": 5,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 372,
+        "phrase": "Selecting Tools to Support Tracking Motivation",
+        "bbox": [
+          54.0,
+          662.8348999023438,
+          258.591552734375,
+          672.87890625
+        ],
+        "page": 5,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 549,
+        "phrase": "Stopping Tracking",
+        "bbox": [
+          316.79998779296875,
+          263.2948913574219,
+          398.2896728515625,
+          273.3388671875
+        ],
+        "page": 8,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 565,
+        "phrase": "Transitioning to a New Tool",
+        "bbox": [
+          54.0,
+          366.7950134277344,
+          174.5550079345703,
+          376.8389892578125
+        ],
+        "page": 8,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 625,
+        "phrase": "Returning to Tracking with the Same Tool after a Lapse",
+        "bbox": [
+          54.0,
+          169.6950225830078,
+          292.4839172363281,
+          179.73902893066406
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 627,
+        "phrase": "Supporting Migration between Goals",
+        "bbox": [
+          316.79998779296875,
+          220.5149688720703,
+          476.35821533203125,
+          230.55897521972656
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 633,
+        "phrase": "Effective Migration between Tools",
+        "bbox": [
+          54.0,
+          479.4750061035156,
+          202.08782958984375,
+          489.51898193359375
+        ],
+        "page": 9,
+        "font": "Arial,Bold",
+        "size": 9.0,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "smallest_id": 197,
+    "visual_properties": {
+      "font": "Arial,Bold",
+      "size": 8.991445541381836,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 197,
+        "phrase": "MODEL STAGES ACROSS DOMAINS",
+        "bbox": [
+          316.79998779296875,
+          101.8349838256836,
+          477.2877197265625,
+          111.87898254394531
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 199,
+        "phrase": "Different Motivations for Deciding to Track",
+        "bbox": [
+          316.79998779296875,
+          239.1748809814453,
+          501.28656005859375,
+          249.21888732910156
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 223,
+        "phrase": "Selecting Tools",
+        "bbox": [
+          54.0,
+          318.9150085449219,
+          122.97428894042969,
+          328.958984375
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 230,
+        "phrase": "Tracking and Acting",
+        "bbox": [
+          54.0,
+          427.2149963378906,
+          143.0250244140625,
+          437.25897216796875
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 252,
+        "phrase": "Lapsing",
+        "bbox": [
+          54.0,
+          535.5748901367188,
+          91.00415802001953,
+          545.618896484375
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 272,
+        "phrase": "Resuming",
+        "bbox": [
+          54.0,
+          632.4149780273438,
+          99.98885345458984,
+          642.458984375
+        ],
+        "page": 4,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 508,
+        "phrase": "Four Categories of Lapsing",
+        "bbox": [
+          54.0,
+          684.9149780273438,
+          173.48873901367188,
+          694.958984375
+        ],
+        "page": 7,
+        "font": "Arial,Bold",
+        "size": 8.991445541381836,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "smallest_id": 227,
+    "visual_properties": {
+      "font": "Arial,Italic",
+      "size": 8.991445541381836,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 227,
+        "phrase": "Behavior Change Goals",
+        "bbox": [
+          316.79998779296875,
+          359.1150207519531,
+          414.8150634765625,
+          369.15899658203125
+        ],
+        "page": 4,
+        "font": "Arial,Italic",
+        "size": 8.991445541381836,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 407,
+        "phrase": "Integration",
+        "bbox": [
+          316.79998779296875,
+          485.23492431640625,
+          361.8295593261719,
+          495.2789001464844
+        ],
+        "page": 6,
+        "font": "Arial,Italic",
+        "size": 8.991445541381836,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 464,
+        "phrase": "Reflection",
+        "bbox": [
+          54.0,
+          380.7149963378906,
+          96.507080078125,
+          390.75897216796875
+        ],
+        "page": 7,
+        "font": "Arial,Italic",
+        "size": 8.991445541381836,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "smallest_id": 276,
+    "visual_properties": {
+      "font": "Arial,Italic",
+      "size": 9.0,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 276,
+        "phrase": "Instrumental Tracking Goals",
+        "bbox": [
+          54.0,
+          61.45497512817383,
+          169.0613555908203,
+          71.49897766113281
+        ],
+        "page": 5,
+        "font": "Arial,Italic",
+        "size": 9.0,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 318,
+        "phrase": "Curiosity",
+        "bbox": [
+          54.0,
+          290.7750244140625,
+          91.46968841552734,
+          300.8190002441406
+        ],
+        "page": 5,
+        "font": "Arial,Italic",
+        "size": 9.0,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 360,
+        "phrase": "Differences by Domain",
+        "bbox": [
+          54.0,
+          520.0948486328125,
+          147.56129455566406,
+          530.1388549804688
+        ],
+        "page": 5,
+        "font": "Arial,Italic",
+        "size": 9.0,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 370,
+        "phrase": "Collection",
+        "bbox": [
+          316.79998779296875,
+          584.7749633789062,
+          358.826416015625,
+          594.8189697265625
+        ],
+        "page": 5,
+        "font": "Arial,Italic",
+        "size": 9.0,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,833 @@
+[
+  {
+    "cluster_id": 0,
+    "smallest_id": 0,
+    "visual_properties": {
+      "font": "TimesNewRomanPSMT",
+      "size": 8.220587730407715,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 0,
+        "phrase": "Public Works Commission Meeting 10-27-21",
+        "bbox": [
+          470.5099182128906,
+          85.4316177368164,
+          543.5909423828125,
+          113.38435363769531
+        ],
+        "page": 0,
+        "font": "TimesNewRomanPSMT",
+        "size": 8.220587730407715,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "smallest_id": 2,
+    "visual_properties": {
+      "font": "ArialMT",
+      "size": 25.538625717163086,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 2,
+        "phrase": "Public Works Commission",
+        "bbox": [
+          147.1667938232422,
+          125.65335083007812,
+          451.40838623046875,
+          154.17999267578125
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 25.538625717163086,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 4,
+        "phrase": "Agenda Report",
+        "bbox": [
+          147.1667938232422,
+          155.02273559570312,
+          326.24359130859375,
+          183.54937744140625
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 25.538625717163086,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "smallest_id": 8,
+    "visual_properties": {
+      "font": "Arial-BoldMT",
+      "size": 11.837647438049316,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 8,
+        "phrase": "Capital Improvement Projects (Design)",
+        "bbox": [
+          64.30326080322266,
+          459.3132629394531,
+          285.92767333984375,
+          472.5359191894531
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 9,
+        "phrase": "Marie Canyon Green Streets",
+        "bbox": [
+          64.30326080322266,
+          486.71038818359375,
+          226.63291931152344,
+          499.93304443359375
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 15,
+        "phrase": "PCH Median Improvements Project",
+        "bbox": [
+          64.30852508544922,
+          636.8665161132812,
+          264.8974609375,
+          650.0891723632812
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 23,
+        "phrase": "PCH Signal Synchronization System Improvements Project",
+        "bbox": [
+          64.29668426513672,
+          207.09417724609375,
+          400.81732177734375,
+          220.31683349609375
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 27,
+        "phrase": "Westward Beach Road Improvements Project",
+        "bbox": [
+          64.30852508544922,
+          398.24853515625,
+          323.52935791015625,
+          411.47119140625
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 33,
+        "phrase": "Civic Center Water Treatment Facility Phase 2",
+        "bbox": [
+          64.30852508544922,
+          589.4063720703125,
+          322.9101257324219,
+          602.6290283203125
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 41,
+        "phrase": "Bluffs Park Shade Structure",
+        "bbox": [
+          64.30852508544922,
+          207.08587646484375,
+          225.32418823242188,
+          220.30853271484375
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 49,
+        "phrase": "Permanent Skate Park",
+        "bbox": [
+          64.33219909667969,
+          343.66558837890625,
+          193.1258087158203,
+          356.88824462890625
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 57,
+        "phrase": "PCH at Trancas Canyon Road Right Turn Lane",
+        "bbox": [
+          64.30852508544922,
+          562.114013671875,
+          329.44818115234375,
+          575.336669921875
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 65,
+        "phrase": "Capital Improvement Projects (Construction)",
+        "bbox": [
+          64.30326080322266,
+          698.69677734375,
+          316.8487243652344,
+          711.91943359375
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 68,
+        "phrase": "Capital Improvement Projects (Not Started)",
+        "bbox": [
+          64.30326080322266,
+          138.8199462890625,
+          306.9892578125,
+          152.0426025390625
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 69,
+        "phrase": "Vehicle Protection Devices",
+        "bbox": [
+          64.30326080322266,
+          166.11053466796875,
+          219.40008544921875,
+          179.33319091796875
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 73,
+        "phrase": "Legacy Park Paver Repair Project",
+        "bbox": [
+          64.30720520019531,
+          261.6886291503906,
+          257.1070251464844,
+          274.9112854003906
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 77,
+        "phrase": "Malibu Bluffs Park South Walkway",
+        "bbox": [
+          64.30326080322266,
+          329.9742736816406,
+          261.6012878417969,
+          343.1969299316406
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 81,
+        "phrase": "Trancas Playground Resurfacing",
+        "bbox": [
+          64.29800415039062,
+          384.5589904785156,
+          253.5937957763672,
+          397.7816467285156
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 85,
+        "phrase": "PCH Median Improvements at Paradise Cove and Zuma Beach",
+        "bbox": [
+          64.30326080322266,
+          439.25018310546875,
+          418.6632080078125,
+          452.47283935546875
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 89,
+        "phrase": "Capital Improvement Projects (Completed)",
+        "bbox": [
+          64.30326080322266,
+          562.1254272460938,
+          307.74444580078125,
+          575.3480834960938
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 90,
+        "phrase": "Civic Center Way Improvements",
+        "bbox": [
+          64.30326080322266,
+          589.4129028320312,
+          252.3916778564453,
+          602.6355590820312
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 94,
+        "phrase": "Civic Center Stormwater Diversion Structure",
+        "bbox": [
+          64.29800415039062,
+          657.6986083984375,
+          318.9139709472656,
+          670.9212646484375
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 100,
+        "phrase": "2021 Annual Street Maintenance",
+        "bbox": [
+          64.28616333007812,
+          166.10400390625,
+          249.74655151367188,
+          179.32666015625
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 1,
+        "is_center": 0
+      },
+      {
+        "id": 104,
+        "phrase": "Disaster Projects (Design)",
+        "bbox": [
+          64.30326080322266,
+          275.3913269042969,
+          211.96487426757812,
+          288.6139831542969
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 105,
+        "phrase": "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)",
+        "bbox": [
+          64.30326080322266,
+          302.6788330078125,
+          480.5977478027344,
+          315.9014892578125
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 111,
+        "phrase": "Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)",
+        "bbox": [
+          64.30852508544922,
+          411.9512634277344,
+          496.3826599121094,
+          425.1739196777344
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 117,
+        "phrase": "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          534.8216552734375,
+          501.7451477050781,
+          548.0443115234375
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 123,
+        "phrase": "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)",
+        "bbox": [
+          64.30852508544922,
+          630.3997192382812,
+          441.02978515625,
+          643.6223754882812
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 129,
+        "phrase": "Storm Drain Master Plan (FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          725.9777221679688,
+          293.84765625,
+          739.2003784179688
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 138,
+        "phrase": "Guardrail Replacement Citywide (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          248.0941162109375,
+          338.1080017089844,
+          261.3167724609375
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 142,
+        "phrase": "Corral Canyon Road Bridge Repairs (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          299.5050048828125,
+          358.492431640625,
+          312.7276611328125
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 146,
+        "phrase": "Corral Canyon Culvert Repairs (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          354.19451904296875,
+          328.79180908203125,
+          367.41717529296875
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 151,
+        "phrase": "Birdview Avenue Improvements (CalOES Project)",
+        "bbox": [
+          64.29931640625,
+          408.77923583984375,
+          345.9997863769531,
+          422.00189208984375
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 155,
+        "phrase": "Malibu Park Drainage Improvements",
+        "bbox": [
+          64.29800415039062,
+          463.3670349121094,
+          269.4112854003906,
+          476.5896911621094
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 159,
+        "phrase": "Clover Heights Storm Drain (FEMA Project)",
+        "bbox": [
+          64.29800415039062,
+          545.3505859375,
+          311.01824951171875,
+          558.5732421875
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 165,
+        "phrase": "Latigo Canyon Road Culvert Repairs (FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          681.808837890625,
+          362.42779541015625,
+          695.031494140625
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 175,
+        "phrase": "Encinal Canyon Road Drainage Improvements (CalOES Project)",
+        "bbox": [
+          64.30852508544922,
+          248.0875244140625,
+          426.45770263671875,
+          261.3101806640625
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 183,
+        "phrase": "Malibu Road Slope Repairs (CalOES Project)",
+        "bbox": [
+          64.30326080322266,
+          343.67218017578125,
+          319.0376281738281,
+          356.89483642578125
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 191,
+        "phrase": "Westward Beach Road Shoulder Repairs (CalOES Project)",
+        "bbox": [
+          64.30852508544922,
+          480.13043212890625,
+          395.4311828613281,
+          493.35308837890625
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 199,
+        "phrase": "Outdoor Warningn Sirens - Design (FEMA Project)",
+        "bbox": [
+          64.30852508544922,
+          643.9942016601562,
+          350.60205078125,
+          657.2168579101562
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 209,
+        "phrase": "Disaster Projects (Construction)",
+        "bbox": [
+          64.30326080322266,
+          275.3913269042969,
+          246.26808166503906,
+          288.6139831542969
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 211,
+        "phrase": "Disaster Projects (Completed)",
+        "bbox": [
+          64.30326080322266,
+          316.3846435546875,
+          237.15655517578125,
+          329.6072998046875
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 212,
+        "phrase": "Citywide Guardrail Replacement",
+        "bbox": [
+          64.30326080322266,
+          343.67218017578125,
+          249.65713500976562,
+          356.89483642578125
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 214,
+        "phrase": "Malibu Park Storm Drain Repairs",
+        "bbox": [
+          64.30326080322266,
+          425.55230712890625,
+          248.9208526611328,
+          438.77496337890625
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  }
+]

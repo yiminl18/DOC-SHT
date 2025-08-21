@@ -1,0 +1,4012 @@
+[
+  {
+    "cluster_id": 0,
+    "smallest_id": 0,
+    "visual_properties": {
+      "font": "TimesNewRomanPSMT",
+      "size": 8.220587730407715,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 0,
+        "phrase": "Public Works Commission Meeting 10-27-21",
+        "bbox": [
+          470.5099182128906,
+          85.4316177368164,
+          543.5909423828125,
+          113.38435363769531
+        ],
+        "page": 0,
+        "font": "TimesNewRomanPSMT",
+        "size": 8.220587730407715,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "smallest_id": 1,
+    "visual_properties": {
+      "font": "TimesNewRomanPS-BoldMT",
+      "size": 16.44117546081543,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Item",
+        "bbox": [
+          489.5816955566406,
+          114.05843353271484,
+          526.5743408203125,
+          132.25881958007812
+        ],
+        "page": 0,
+        "font": "TimesNewRomanPS-BoldMT",
+        "size": 16.44117546081543,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 3,
+        "phrase": "4.A.",
+        "bbox": [
+          491.88348388671875,
+          133.0150909423828,
+          524.2725219726562,
+          151.21548461914062
+        ],
+        "page": 0,
+        "font": "TimesNewRomanPS-BoldMT",
+        "size": 16.44117546081543,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 1,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "smallest_id": 2,
+    "visual_properties": {
+      "font": "ArialMT",
+      "size": 25.538625717163086,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 2,
+        "phrase": "Public Works Commission",
+        "bbox": [
+          147.1667938232422,
+          125.65335083007812,
+          451.40838623046875,
+          154.17999267578125
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 25.538625717163086,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 4,
+        "phrase": "Agenda Report",
+        "bbox": [
+          147.1667938232422,
+          155.02273559570312,
+          326.24359130859375,
+          183.54937744140625
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 25.538625717163086,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "smallest_id": 5,
+    "visual_properties": {
+      "font": "ArialMT",
+      "size": 11.837647438049316,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 5,
+        "phrase": "To: Chair Simmens and Members of the Public Works Commission Prepared by: Troy Spayd, Assistant Public Works Director/City Engineer Approved by: Rob DuBoux, Public Works Director/City Engineer Date prepared: October 21, 2021 Meeting date: October 27, 2021 Subject: Capital Improvement Projects and Disaster Recovery Projects Status Report Receive and file report on the status of the City’s current and",
+        "bbox": [
+          64.30326080322266,
+          211.26416015625,
+          534.5638427734375,
+          390.6588439941406
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 7,
+        "phrase": "upcoming Capital Improvements Projects and Disaster Recovery Projects. DISCUSSION: Staff will provide a status update on the following active projects in the Fiscal Year 2021-2022 Capital Improvement Program:",
+        "bbox": [
+          64.30326080322266,
+          391.1371765136719,
+          534.58447265625,
+          445.2435607910156
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 10,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          500.3066101074219,
+          177.5264129638672,
+          513.5292358398438
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 12,
+        "phrase": "A hydrology report was prepared and will be used to size the pre- manufactured biofilters. City staff is reviewing multiple biofilter manufacturers for filters that will work in the proposed project area. It is anticipated to have a final design by March 2022. The project will be advertised for construction bids shortly after this date. Project Schedule:",
+        "bbox": [
+          130.06924438476562,
+          514.0076293945312,
+          534.5446166992188,
+          595.5159301757812
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 14,
+        "phrase": "Complete Design: March 2022 Begin Construction: Spring 2022",
+        "bbox": [
+          151.989990234375,
+          595.8846435546875,
+          337.2254943847656,
+          622.8034057617188
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 16,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          650.5789184570312,
+          177.5264129638672,
+          663.8015747070312
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 18,
+        "phrase": "The project was approved by the Planning Commission on September 8, 2021. This project requires Caltrans approval since the work will be on Pacific Coast Highway. The project reports and plans are being routed through Caltrans for final approval.  It is anticipated that the project will have final approval by March 2022.  The project will be",
+        "bbox": [
+          151.989990234375,
+          664.1703491210938,
+          534.5565185546875,
+          731.9645385742188
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 20,
+        "phrase": "advertised for construction bids after this date.  A construction manager agreement will be sent to City Council in March. Project Schedule :",
+        "bbox": [
+          130.06924438476562,
+          125.22857666015625,
+          534.581298828125,
+          165.74359130859375
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 22,
+        "phrase": "Complete Design: March 2022 Begin Construction: Spring/Summer 2022",
+        "bbox": [
+          151.989990234375,
+          166.1123046875,
+          385.3455505371094,
+          193.03106689453125
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 24,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          220.80657958984375,
+          177.5264129638672,
+          234.02923583984375
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 26,
+        "phrase": "This project will be presented to the Planning Commission in February 2022. This project requires Caltrans approval since the work will be on PCH. The project reports and plans are being routed through Caltrans for final approval.  It is anticipated that the project will have final approval by March 2022.  The project will be advertised for construction bids shortly after final approval.  If possible, the construction of this project will begin in conjunction with the PCH Median Improvement Project Schedule : Complete Final Design: Spring 2022 Advertise: Spring/Summer 2022 Award Contract and Begin Construction: Spring/Summer 2022",
+        "bbox": [
+          151.989990234375,
+          234.39801025390625,
+          534.6157836914062,
+          384.1854248046875
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 28,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          411.9626770019531,
+          177.5264129638672,
+          425.1853332519531
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 30,
+        "phrase": "The design plans were approved by Planning Commission on September 20, 2021. At the December 13, 2021, City Council meeting, Council directed staff to withdraw the proposed project and associated Coastal Development Permit and directed the Public Works and Public Safety Commissions to review the project to develop project alternatives.  A joint Public Works and Public Safety Commission meeting was held on January 20, 2022.  Project alternatives will be presented to the commissions at a future date. Project Schedule :",
+        "bbox": [
+          130.06924438476562,
+          425.5540466308594,
+          534.59423828125,
+          548.0557250976562
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 32,
+        "phrase": "Complete Design: Spring 2022 Begin Construction: Summer/Winter 2022",
+        "bbox": [
+          151.989990234375,
+          548.4244384765625,
+          385.3455505371094,
+          575.34326171875
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 34,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          603.1187744140625,
+          177.5264129638672,
+          616.3414306640625
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 36,
+        "phrase": "Individual letters were mailed to all properties within Phase 2 with their preliminary estimated assessments.  Staff has been communicating with the property owners regarding their proposed assessments. The MOU has been amended modifying the deadline to the formation of the assessment district to June 30, 2022. Staff mailed easement documents to property owners for review and execution in July and has followed up with an additional letter to those property owners.",
+        "bbox": [
+          151.989990234375,
+          616.7101440429688,
+          534.5614013671875,
+          725.4862670898438
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 38,
+        "phrase": "Project Schedule:",
+        "bbox": [
+          123.04694366455078,
+          138.81817626953125,
+          226.41323852539062,
+          152.04083251953125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 40,
+        "phrase": "Complete Design: December 2021 Advertise for Bidding: February 2022 Begin Construction: Fall 2022",
+        "bbox": [
+          151.989990234375,
+          152.51434326171875,
+          359.693359375,
+          193.02276611328125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 42,
+        "phrase": "Project Description: This project consists of the installation of four single-post",
+        "bbox": [
+          130.06924438476562,
+          220.80657958984375,
+          534.559326171875,
+          234.02923583984375
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 44,
+        "phrase": "shade structures at Malibu Bluffs Park. Updates:",
+        "bbox": [
+          130.06797790527344,
+          234.39801025390625,
+          336.5757141113281,
+          261.32159423828125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 46,
+        "phrase": "Staff is currently working on the design of the project and anticipates sending this project out to bid during the Spring of 2022. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          261.6903381347656,
+          534.6050415039062,
+          302.2053527832031
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 48,
+        "phrase": "Complete Design: Spring 2022 Begin Construction: Spring 2022",
+        "bbox": [
+          151.989990234375,
+          302.6836853027344,
+          337.2491760253906,
+          329.60247802734375
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 50,
+        "phrase": "Project Description: This project includes the designing and constructing a",
+        "bbox": [
+          130.06924438476562,
+          357.26837158203125,
+          534.526123046875,
+          370.49102783203125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 52,
+        "phrase": "permanent skate park located on the Crummer/Case Court parcel adjacent to Malibu Bluffs Park.  The project would include parking and additional site amenities such as trash cans, benches, tables, and restrooms. Updates:",
+        "bbox": [
+          130.06797790527344,
+          370.9693603515625,
+          534.569580078125,
+          425.1853332519531
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 54,
+        "phrase": "In May 2021, the Council approved funding for additional engineering work related to the project. Staff has worked with the consultant over the past several months to complete the engineering work, and the final draft plans are expected to be completed in early 2022. The Planning Commission will then review the project in Spring 2022 before final review by the Council. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          425.5540466308594,
+          534.5967407226562,
+          520.7633666992188
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 56,
+        "phrase": "Complete Design: Spring 2022 Begin Construction:  To be determined",
+        "bbox": [
+          151.989990234375,
+          521.132080078125,
+          369.5659484863281,
+          548.0509033203125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 58,
+        "phrase": "Project Description: This project consists of installing a new westbound right",
+        "bbox": [
+          130.06924438476562,
+          575.716796875,
+          534.5557250976562,
+          588.939453125
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 60,
+        "phrase": "turn lane at the intersection of PCH and Trancas Canyon Road. Updates:",
+        "bbox": [
+          130.06797790527344,
+          589.4177856445312,
+          473.37158203125,
+          616.3414306640625
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 62,
+        "phrase": "Staff is reviewing the submitted proposals and will select a qualified consultant.  It is anticipated that this agreement will go to Council in March 2022 Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          616.7101440429688,
+          534.6004638671875,
+          670.9260864257812
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 64,
+        "phrase": "Begin Design: Spring 2022",
+        "bbox": [
+          168.43116760253906,
+          671.2948608398438,
+          323.9659729003906,
+          684.5175170898438
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 66,
+        "phrase": "The City does not have projects in construction at this time.",
+        "bbox": [
+          64.29800415039062,
+          725.9843139648438,
+          378.43365478515625,
+          739.2069702148438
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 70,
+        "phrase": "Project Description: Per Malibu Municipal Code Section 17.48.070 requires",
+        "bbox": [
+          130.06924438476562,
+          179.81329345703125,
+          534.4724731445312,
+          193.03594970703125
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 72,
+        "phrase": "vehicle impact protection devices to be installed for all parking spaces located adjacent to any outdoor pedestrian seating area.  There are two locations within the City’s right-of-way and City-owned property that would require a vehicle impact protection device.",
+        "bbox": [
+          130.06797790527344,
+          193.4046630859375,
+          534.5366821289062,
+          247.61407470703125
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 74,
+        "phrase": "Project Description: This project will consist of removing and repairing a large",
+        "bbox": [
+          130.06924438476562,
+          275.3913269042969,
+          534.5261840820312,
+          288.6139831542969
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 76,
+        "phrase": "section of pavers in Legacy Park. The pavers have become uneven and damaged in several areas",
+        "bbox": [
+          130.06797790527344,
+          288.9826965332031,
+          534.4796142578125,
+          315.9014892578125
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 78,
+        "phrase": "Project Description: This project will include replacing the existing sidewalk",
+        "bbox": [
+          130.06924438476562,
+          343.677001953125,
+          534.5296020507812,
+          356.899658203125
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 80,
+        "phrase": "located on the south side of Malibu Bluffs Park.",
+        "bbox": [
+          130.06797790527344,
+          357.26837158203125,
+          380.9668884277344,
+          370.49102783203125
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 82,
+        "phrase": "Project Description: The project will include removing and replacing the upper",
+        "bbox": [
+          130.06924438476562,
+          398.2616882324219,
+          534.4937133789062,
+          411.4843444824219
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 84,
+        "phrase": "layer of the playground surfacing at Trancas Canyon Park.",
+        "bbox": [
+          130.06797790527344,
+          411.9626770019531,
+          440.36822509765625,
+          425.1853332519531
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 86,
+        "phrase": "Project Description: This project was identified in the 2015 PCH Safety Study",
+        "bbox": [
+          130.06924438476562,
+          452.8464050292969,
+          534.5816040039062,
+          466.0690612792969
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 88,
+        "phrase": "and includes installing new raised medians and improvements.  New raised medians are proposed east and west of PCH and Paradise Cove Road.  The proposed improvements also include the relocation of the existing bus stop and new signage.  The project will also include the installation of new raised medians on PCH in the areas where the double yellow lines exist in the vicinity of Zuma Beach, specifically where the yellow paddles are installed.",
+        "bbox": [
+          130.06797790527344,
+          466.5473937988281,
+          534.558837890625,
+          548.0377197265625
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 91,
+        "phrase": "Updates: The contractor has completed the planting material maintenance",
+        "bbox": [
+          130.06924438476562,
+          603.1187744140625,
+          534.4725952148438,
+          616.3414306640625
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 93,
+        "phrase": "period as described within the project documents. Council accepted this project as complete at the September 13th City Council Meeting.",
+        "bbox": [
+          130.06797790527344,
+          616.7101440429688,
+          534.5105590820312,
+          643.62890625
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 95,
+        "phrase": "Updates:  T he contractor has completed the storm drain improvements in the",
+        "bbox": [
+          130.06924438476562,
+          671.2948608398438,
+          534.4857788085938,
+          684.5175170898438
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 97,
+        "phrase": "Civic Center Way are.  The improvements modified the existing concrete channel underneath Civic Center Way by adding a 3’ concrete curb adjacent to the existing flap gates.  The new curb prevents brackish water intrusion",
+        "bbox": [
+          130.06797790527344,
+          684.9957885742188,
+          534.5767211914062,
+          725.5042724609375
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 99,
+        "phrase": "into the City’s Civic Center Stormwater Treatment Facility. This project is scheduled to be accepted by the Council at the January 24, 2022 meeting.",
+        "bbox": [
+          130.06797790527344,
+          125.22857666015625,
+          534.5568237304688,
+          152.04083251953125
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 101,
+        "phrase": "Updates: This project included resurfacing Malibu Road, Broad Beach Road,",
+        "bbox": [
+          130.06924438476562,
+          179.81329345703125,
+          534.5509643554688,
+          193.03594970703125
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 103,
+        "phrase": "Latigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico Street and Vista Pacifica with a slurry seal treatment and adding speed humps to Birdview Avenue.  This project was identified in the City’s Pavement Management Plan. This project is scheduled to be accepted by the Council at the January 24, 2022 meeting.",
+        "bbox": [
+          130.06797790527344,
+          193.4046630859375,
+          534.5638427734375,
+          261.30535888671875
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 106,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          316.3846435546875,
+          177.5264129638672,
+          329.6072998046875
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 108,
+        "phrase": "The project consultant prepared the specifications for the project. Staff is finalizing the bid documents. Project Schedule :",
+        "bbox": [
+          130.06924438476562,
+          329.97601318359375,
+          534.5568237304688,
+          370.49102783203125
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 110,
+        "phrase": "Complete Design: February 2022 Begin Construction: Spring 2022",
+        "bbox": [
+          151.989990234375,
+          370.9693603515625,
+          341.1792297363281,
+          397.7816467285156
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 112,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          425.5540466308594,
+          177.5264129638672,
+          438.7767028808594
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 114,
+        "phrase": "Staff is finalizing the design of this project. Staff is also working with FEMA/CalOES to substitute the existing timber with non-combustible materials. Project Schedule",
+        "bbox": [
+          130.06924438476562,
+          439.2550354003906,
+          534.5435791015625,
+          493.36138916015625
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 116,
+        "phrase": "Complete Design: February 2022 Begin Construction: April 2022",
+        "bbox": [
+          151.97811889648438,
+          493.8397216796875,
+          341.1674499511719,
+          520.758544921875
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 118,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          548.4244384765625,
+          177.5264129638672,
+          561.6470947265625
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 120,
+        "phrase": "The project consultant has started the design of this project. Project Schedule:",
+        "bbox": [
+          130.06924438476562,
+          562.1254272460938,
+          480.48468017578125,
+          588.939453125
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 122,
+        "phrase": "Complete Design: Spring 2022 Begin Construction: Spring 2022",
+        "bbox": [
+          151.989990234375,
+          589.4177856445312,
+          337.2254943847656,
+          616.3365478515625
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 124,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          644.0025024414062,
+          177.5263671875,
+          657.2251586914062
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 126,
+        "phrase": "The project consultant has started the design of this project. Project Schedule:",
+        "bbox": [
+          130.06924438476562,
+          657.7034301757812,
+          480.48468017578125,
+          684.5175170898438
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 128,
+        "phrase": "Complete Design: Spring 2022 Begin Construction: Spring 2022",
+        "bbox": [
+          151.989990234375,
+          684.9957885742188,
+          337.2254943847656,
+          711.9146118164062
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 131,
+        "phrase": "Project Description: This project will be funded through a grant from FEMA",
+        "bbox": [
+          130.06924438476562,
+          125.22857666015625,
+          534.5283813476562,
+          138.45123291015625
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 133,
+        "phrase": "after the Woolsey Fire.  The City will create a complete inventory of storm drains, culverts, debris basins, manholes, and other drainage structures within the City. Updates: Council approved an agreement in December for design services.",
+        "bbox": [
+          130.06797790527344,
+          138.8199462890625,
+          537.8170776367188,
+          193.03594970703125
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 135,
+        "phrase": "A kick-off meeting was held in late December. Estimated Schedule:",
+        "bbox": [
+          130.06797790527344,
+          193.4046630859375,
+          374.2785949707031,
+          220.32830810546875
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 137,
+        "phrase": "Completion Date:  Spring 2022",
+        "bbox": [
+          151.989990234375,
+          220.80657958984375,
+          328.6905212402344,
+          234.02923583984375
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 139,
+        "phrase": "Project Description: This project consisted of replacing the damaged",
+        "bbox": [
+          130.06924438476562,
+          261.6903381347656,
+          534.4891357421875,
+          274.9129943847656
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 141,
+        "phrase": "guardrail throughout the City as a result of the Woolsey Fire.",
+        "bbox": [
+          130.06797790527344,
+          275.3913269042969,
+          450.24078369140625,
+          288.6139831542969
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 143,
+        "phrase": "Project Description: This project consisted of replacing fire damaged existing",
+        "bbox": [
+          130.06924438476562,
+          313.2060241699219,
+          534.5250244140625,
+          326.4286804199219
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 145,
+        "phrase": "fencing and repairing the damaged embankment adjacent to the bridge.",
+        "bbox": [
+          130.06797790527344,
+          326.7973937988281,
+          509.7486877441406,
+          340.0200500488281
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 147,
+        "phrase": "Project Description: This project has been cancelled as it could not get FEMA",
+        "bbox": [
+          130.06924438476562,
+          367.79071044921875,
+          534.5309448242188,
+          381.01336669921875
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 149,
+        "phrase": "approval.",
+        "bbox": [
+          130.06797790527344,
+          381.49169921875,
+          182.24832153320312,
+          394.71435546875
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 152,
+        "phrase": "Updates: This project was included in the Malibu Park Drainage",
+        "bbox": [
+          130.06924438476562,
+          422.37542724609375,
+          534.509765625,
+          435.59808349609375
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 154,
+        "phrase": "Improvement.",
+        "bbox": [
+          130.06797790527344,
+          436.076416015625,
+          205.92361450195312,
+          449.299072265625
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 156,
+        "phrase": "Updates: The Contractor completed the repairs to storm drains on Cuthbert",
+        "bbox": [
+          130.06924438476562,
+          477.0697326660156,
+          534.4749145507812,
+          490.2923889160156
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 158,
+        "phrase": "Road, Morning View Drive, Busch Drive, Harvester Road and Birdview Avenue. This project is scheduled to be accepted by the Council at the January 24, 2022 meeting.",
+        "bbox": [
+          130.06797790527344,
+          490.6611328125,
+          534.5602416992188,
+          531.1695556640625
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 160,
+        "phrase": "Project Description: This project consists of design and construction of a few",
+        "bbox": [
+          130.06924438476562,
+          558.94677734375,
+          534.5557861328125,
+          572.16943359375
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 162,
+        "phrase": "storm drains on Clover Heights.  The existing storm drain facility ends at the intersection of Clover Heights and Harvester Road.  During storms, this intersection floods and causes debris to block the road.  An extended storm drain towards the end of Clover Heights will help eliminate this issue. Updates:",
+        "bbox": [
+          130.06797790527344,
+          572.6477661132812,
+          534.554443359375,
+          640.4551391601562
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 164,
+        "phrase": "Staff is currently preparing consultant proposals for the design of this project.  Proposals will be due in February/March.",
+        "bbox": [
+          151.989990234375,
+          640.9334716796875,
+          534.6239624023438,
+          667.7457275390625
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 166,
+        "phrase": "Project Description: This project consists of repairing the existing storm drain",
+        "bbox": [
+          130.06924438476562,
+          695.5181884765625,
+          534.5579223632812,
+          708.7408447265625
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 168,
+        "phrase": "on Latigo Canyon Road located approximately 2,500 feet from PCH that was damaged by the Woolsey Fire.",
+        "bbox": [
+          130.06797790527344,
+          709.1095581054688,
+          534.4903564453125,
+          736.033203125
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 170,
+        "phrase": "Updates:",
+        "bbox": [
+          130.06924438476562,
+          125.22857666015625,
+          180.81729125976562,
+          138.45123291015625
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 172,
+        "phrase": "This project is currently under design with the City’s consultant. It is anticipated that the final design will be complete by February 2022. The project will be advertised for construction bids with construction beginning in April 2022. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          138.8199462890625,
+          534.5588989257812,
+          206.6273193359375
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 174,
+        "phrase": "Complete Design: February 2022 Begin Construction: April 2022",
+        "bbox": [
+          151.989990234375,
+          207.10565185546875,
+          341.1792297363281,
+          234.0244140625
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 176,
+        "phrase": "Project Description: This project consists of repairing damage storm drain",
+        "bbox": [
+          130.06924438476562,
+          261.6903381347656,
+          534.5116577148438,
+          274.9129943847656
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 178,
+        "phrase": "facilities and roadway embankments that were damaged by the Woolsey Fire. Updates:",
+        "bbox": [
+          130.06797790527344,
+          275.3913269042969,
+          534.5247802734375,
+          302.2053527832031
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 180,
+        "phrase": "The project design will commence during the Spring 2022. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          302.6836853027344,
+          471.93792724609375,
+          329.6072998046875
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 184,
+        "phrase": "Project Description: The existing slope adjacent to the beach access stairs",
+        "bbox": [
+          130.06924438476562,
+          357.26837158203125,
+          534.5009155273438,
+          370.49102783203125
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 186,
+        "phrase": "at 24712 Malibu Road has been eroded and caused damage to Malibu Road. Updates:",
+        "bbox": [
+          130.06797790527344,
+          370.9693603515625,
+          534.5247802734375,
+          397.78338623046875
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 188,
+        "phrase": "The City has hired a consultant to design this project.  The design has started and is anticipated to be completed by the Spring of 2022. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          398.2616882324219,
+          534.5187377929688,
+          438.7767028808594
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 190,
+        "phrase": "Complete Design: Spring 2022 Begin Construction: Fall 2022",
+        "bbox": [
+          151.989990234375,
+          439.2550354003906,
+          327.9093017578125,
+          466.06732177734375
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 192,
+        "phrase": "Project Description: The project consists of repairs the damaged shoulder on",
+        "bbox": [
+          130.06924438476562,
+          493.8397216796875,
+          534.5485229492188,
+          507.0623779296875
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 194,
+        "phrase": "Westward Beach Road. Upates :",
+        "bbox": [
+          130.06797790527344,
+          507.54071044921875,
+          258.1986999511719,
+          534.354736328125
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 196,
+        "phrase": "This project is currently under design with the City’s consultant. It is anticipated that the final design will be complete by July 2022. The project will be advertised for construction bids with construction beginning in Fall 2022. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          534.8330688476562,
+          534.5659790039062,
+          602.6404418945312
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 198,
+        "phrase": "Complete Design: July 2022 Begin Construction: Fall 2022",
+        "bbox": [
+          151.989990234375,
+          603.1187744140625,
+          322.1088562011719,
+          629.9310302734375
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 200,
+        "phrase": "Project Description: An Emergency Warning Siren system will improve the",
+        "bbox": [
+          130.06924438476562,
+          657.7034301757812,
+          534.5366821289062,
+          670.9260864257812
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 202,
+        "phrase": "City’s ability to alert the community by providing mechanisms to alert residents in areas without power and those who live in neighborhoods with poor cell service.  Phase One of the project included a sound study to determine the optimal number and locations of individual sirens, power and infrastructure requirements, and siren sound range.  The City has been",
+        "bbox": [
+          130.06797790527344,
+          671.2948608398438,
+          534.59228515625,
+          739.195556640625
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 204,
+        "phrase": "awarded a FEMA Hazard Mitigation grant to fund the design, engineering and environmental compliance needed for a shovel ready project.  Phase Two of the Emergency Warning Sirens project will be implementation of the design plan, including purchasing, installing, and testing the sirens.  The City will apply for future grant funding for this phase of the project. Upates :",
+        "bbox": [
+          130.06797790527344,
+          125.22857666015625,
+          534.6052856445312,
+          206.6273193359375
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 206,
+        "phrase": "On November 30, 2021, City Council approved an agreement with Acoustic Technology to design the outdoor warning sirens.  A design report will be presented to Council upon completion. Estimated Schedule:",
+        "bbox": [
+          130.06924438476562,
+          207.10565185546875,
+          534.501953125,
+          261.32159423828125
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 210,
+        "phrase": "None at this time",
+        "bbox": [
+          64.30326080322266,
+          288.9826965332031,
+          156.7079620361328,
+          302.2053527832031
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 213,
+        "phrase": "Project Description : This project consisted of replacing the damaged guardrails throughout the City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and Kanan Dume Road.  The project was combined with the County of Los Angeles’ damaged guardrails.  The project was completed in February 2021.",
+        "bbox": [
+          64.30326080322266,
+          357.26837158203125,
+          534.4515991210938,
+          411.477783203125
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 215,
+        "phrase": "Project Description: After the Woolsey Fire, subsequent storms caused damage to multiple storm drain facilities throughout Malibu.  The project repaired the storm drains on Cuthbert Road, Morning View Drive, Busch Drive at Harvester Road.  The project also included the repair of a storm drainage facility on Birdview Avenue.",
+        "bbox": [
+          64.30326080322266,
+          439.2550354003906,
+          534.603271484375,
+          493.3548278808594
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "smallest_id": 6,
+    "visual_properties": {
+      "font": "ArialMT",
+      "size": 10.960783958435059,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 6,
+        "phrase": "RECOMMENDED ACTION:",
+        "bbox": [
+          64.30326080322266,
+          378.2297668457031,
+          200.52389526367188,
+          390.47296142578125
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 19,
+        "phrase": "Page 1 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 0,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 37,
+        "phrase": "Page 2 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 1,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 67,
+        "phrase": "Page 3 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 2,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 98,
+        "phrase": "Page 4 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 3,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 130,
+        "phrase": "Page 5 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 4,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 169,
+        "phrase": "Page 6 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 5,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 203,
+        "phrase": "Page 7 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 216,
+        "phrase": "Page 8 of 8 Agenda Item # 4.A.",
+        "bbox": [
+          269.7083435058594,
+          741.9086303710938,
+          531.3204345703125,
+          766.7566528320312
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 10.960783958435059,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "smallest_id": 8,
+    "visual_properties": {
+      "font": "Arial-BoldMT",
+      "size": 11.837647438049316,
+      "bold": 1,
+      "is_underline": 1,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 8,
+        "phrase": "Capital Improvement Projects (Design)",
+        "bbox": [
+          64.30326080322266,
+          459.3132629394531,
+          285.92767333984375,
+          472.5359191894531
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 9,
+        "phrase": "Marie Canyon Green Streets",
+        "bbox": [
+          64.30326080322266,
+          486.71038818359375,
+          226.63291931152344,
+          499.93304443359375
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 15,
+        "phrase": "PCH Median Improvements Project",
+        "bbox": [
+          64.30852508544922,
+          636.8665161132812,
+          264.8974609375,
+          650.0891723632812
+        ],
+        "page": 0,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 23,
+        "phrase": "PCH Signal Synchronization System Improvements Project",
+        "bbox": [
+          64.29668426513672,
+          207.09417724609375,
+          400.81732177734375,
+          220.31683349609375
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 27,
+        "phrase": "Westward Beach Road Improvements Project",
+        "bbox": [
+          64.30852508544922,
+          398.24853515625,
+          323.52935791015625,
+          411.47119140625
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 33,
+        "phrase": "Civic Center Water Treatment Facility Phase 2",
+        "bbox": [
+          64.30852508544922,
+          589.4063720703125,
+          322.9101257324219,
+          602.6290283203125
+        ],
+        "page": 1,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 41,
+        "phrase": "Bluffs Park Shade Structure",
+        "bbox": [
+          64.30852508544922,
+          207.08587646484375,
+          225.32418823242188,
+          220.30853271484375
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 49,
+        "phrase": "Permanent Skate Park",
+        "bbox": [
+          64.33219909667969,
+          343.66558837890625,
+          193.1258087158203,
+          356.88824462890625
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 57,
+        "phrase": "PCH at Trancas Canyon Road Right Turn Lane",
+        "bbox": [
+          64.30852508544922,
+          562.114013671875,
+          329.44818115234375,
+          575.336669921875
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 65,
+        "phrase": "Capital Improvement Projects (Construction)",
+        "bbox": [
+          64.30326080322266,
+          698.69677734375,
+          316.8487243652344,
+          711.91943359375
+        ],
+        "page": 2,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 68,
+        "phrase": "Capital Improvement Projects (Not Started)",
+        "bbox": [
+          64.30326080322266,
+          138.8199462890625,
+          306.9892578125,
+          152.0426025390625
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 69,
+        "phrase": "Vehicle Protection Devices",
+        "bbox": [
+          64.30326080322266,
+          166.11053466796875,
+          219.40008544921875,
+          179.33319091796875
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 73,
+        "phrase": "Legacy Park Paver Repair Project",
+        "bbox": [
+          64.30720520019531,
+          261.6886291503906,
+          257.1070251464844,
+          274.9112854003906
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 77,
+        "phrase": "Malibu Bluffs Park South Walkway",
+        "bbox": [
+          64.30326080322266,
+          329.9742736816406,
+          261.6012878417969,
+          343.1969299316406
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 81,
+        "phrase": "Trancas Playground Resurfacing",
+        "bbox": [
+          64.29800415039062,
+          384.5589904785156,
+          253.5937957763672,
+          397.7816467285156
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 85,
+        "phrase": "PCH Median Improvements at Paradise Cove and Zuma Beach",
+        "bbox": [
+          64.30326080322266,
+          439.25018310546875,
+          418.6632080078125,
+          452.47283935546875
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 89,
+        "phrase": "Capital Improvement Projects (Completed)",
+        "bbox": [
+          64.30326080322266,
+          562.1254272460938,
+          307.74444580078125,
+          575.3480834960938
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 90,
+        "phrase": "Civic Center Way Improvements",
+        "bbox": [
+          64.30326080322266,
+          589.4129028320312,
+          252.3916778564453,
+          602.6355590820312
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 94,
+        "phrase": "Civic Center Stormwater Diversion Structure",
+        "bbox": [
+          64.29800415039062,
+          657.6986083984375,
+          318.9139709472656,
+          670.9212646484375
+        ],
+        "page": 3,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 100,
+        "phrase": "2021 Annual Street Maintenance",
+        "bbox": [
+          64.28616333007812,
+          166.10400390625,
+          249.74655151367188,
+          179.32666015625
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 1,
+        "is_center": 0
+      },
+      {
+        "id": 104,
+        "phrase": "Disaster Projects (Design)",
+        "bbox": [
+          64.30326080322266,
+          275.3913269042969,
+          211.96487426757812,
+          288.6139831542969
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 105,
+        "phrase": "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)",
+        "bbox": [
+          64.30326080322266,
+          302.6788330078125,
+          480.5977478027344,
+          315.9014892578125
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 111,
+        "phrase": "Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)",
+        "bbox": [
+          64.30852508544922,
+          411.9512634277344,
+          496.3826599121094,
+          425.1739196777344
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 117,
+        "phrase": "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          534.8216552734375,
+          501.7451477050781,
+          548.0443115234375
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 123,
+        "phrase": "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)",
+        "bbox": [
+          64.30852508544922,
+          630.3997192382812,
+          441.02978515625,
+          643.6223754882812
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 129,
+        "phrase": "Storm Drain Master Plan (FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          725.9777221679688,
+          293.84765625,
+          739.2003784179688
+        ],
+        "page": 4,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 138,
+        "phrase": "Guardrail Replacement Citywide (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          248.0941162109375,
+          338.1080017089844,
+          261.3167724609375
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 142,
+        "phrase": "Corral Canyon Road Bridge Repairs (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          299.5050048828125,
+          358.492431640625,
+          312.7276611328125
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 146,
+        "phrase": "Corral Canyon Culvert Repairs (FEMA Project)",
+        "bbox": [
+          64.30326080322266,
+          354.19451904296875,
+          328.79180908203125,
+          367.41717529296875
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 151,
+        "phrase": "Birdview Avenue Improvements (CalOES Project)",
+        "bbox": [
+          64.29931640625,
+          408.77923583984375,
+          345.9997863769531,
+          422.00189208984375
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 155,
+        "phrase": "Malibu Park Drainage Improvements",
+        "bbox": [
+          64.29800415039062,
+          463.3670349121094,
+          269.4112854003906,
+          476.5896911621094
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 159,
+        "phrase": "Clover Heights Storm Drain (FEMA Project)",
+        "bbox": [
+          64.29800415039062,
+          545.3505859375,
+          311.01824951171875,
+          558.5732421875
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 165,
+        "phrase": "Latigo Canyon Road Culvert Repairs (FEMA Project)",
+        "bbox": [
+          64.29668426513672,
+          681.808837890625,
+          362.42779541015625,
+          695.031494140625
+        ],
+        "page": 5,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 175,
+        "phrase": "Encinal Canyon Road Drainage Improvements (CalOES Project)",
+        "bbox": [
+          64.30852508544922,
+          248.0875244140625,
+          426.45770263671875,
+          261.3101806640625
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 183,
+        "phrase": "Malibu Road Slope Repairs (CalOES Project)",
+        "bbox": [
+          64.30326080322266,
+          343.67218017578125,
+          319.0376281738281,
+          356.89483642578125
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 191,
+        "phrase": "Westward Beach Road Shoulder Repairs (CalOES Project)",
+        "bbox": [
+          64.30852508544922,
+          480.13043212890625,
+          395.4311828613281,
+          493.35308837890625
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 199,
+        "phrase": "Outdoor Warningn Sirens - Design (FEMA Project)",
+        "bbox": [
+          64.30852508544922,
+          643.9942016601562,
+          350.60205078125,
+          657.2168579101562
+        ],
+        "page": 6,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 209,
+        "phrase": "Disaster Projects (Construction)",
+        "bbox": [
+          64.30326080322266,
+          275.3913269042969,
+          246.26808166503906,
+          288.6139831542969
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 211,
+        "phrase": "Disaster Projects (Completed)",
+        "bbox": [
+          64.30326080322266,
+          316.3846435546875,
+          237.15655517578125,
+          329.6072998046875
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 212,
+        "phrase": "Citywide Guardrail Replacement",
+        "bbox": [
+          64.30326080322266,
+          343.67218017578125,
+          249.65713500976562,
+          356.89483642578125
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 214,
+        "phrase": "Malibu Park Storm Drain Repairs",
+        "bbox": [
+          64.30326080322266,
+          425.55230712890625,
+          248.9208526611328,
+          438.77496337890625
+        ],
+        "page": 7,
+        "font": "Arial-BoldMT",
+        "size": 11.837647438049316,
+        "bold": 1,
+        "is_underline": 1,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "smallest_id": 11,
+    "visual_properties": {
+      "font": "Wingdings-Regular",
+      "size": 11.837647438049316,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 0
+    },
+    "phrases": [
+      {
+        "id": 11,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          500.37762451171875,
+          123.02588653564453,
+          513.5174560546875
+        ],
+        "page": 0,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 13,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          582.3643188476562,
+          123.02588653564453,
+          595.5040893554688
+        ],
+        "page": 0,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 17,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          650.6499633789062,
+          123.02588653564453,
+          663.7897338867188
+        ],
+        "page": 0,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 21,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          152.5919647216797,
+          123.02588653564453,
+          165.73175048828125
+        ],
+        "page": 1,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 25,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          220.8776092529297,
+          123.02588653564453,
+          234.01739501953125
+        ],
+        "page": 1,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 29,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          412.03369140625,
+          123.02588653564453,
+          425.1734924316406
+        ],
+        "page": 1,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 31,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          534.9041137695312,
+          123.02588653564453,
+          548.0438842773438
+        ],
+        "page": 1,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 35,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          603.1898193359375,
+          123.02588653564453,
+          616.32958984375
+        ],
+        "page": 1,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 39,
+        "phrase": "¾",
+        "bbox": [
+          113.6241455078125,
+          138.8892059326172,
+          123.02323913574219,
+          152.02899169921875
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 43,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          220.8776092529297,
+          123.02588653564453,
+          234.01739501953125
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 45,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          248.1699676513672,
+          123.02588653564453,
+          261.30975341796875
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 47,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          289.0537109375,
+          123.02588653564453,
+          302.1935119628906
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 51,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          357.3393859863281,
+          123.02588653564453,
+          370.47918701171875
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 53,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          412.03369140625,
+          123.02588653564453,
+          425.1734924316406
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 55,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          507.6117248535156,
+          123.02588653564453,
+          520.7515258789062
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 59,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          575.787841796875,
+          123.02588653564453,
+          588.9276123046875
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 61,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          603.1898193359375,
+          123.02588653564453,
+          616.32958984375
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 63,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          657.7744750976562,
+          123.02588653564453,
+          670.9142456054688
+        ],
+        "page": 2,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 71,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          179.8843231201172,
+          123.02588653564453,
+          193.02410888671875
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 75,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          275.46234130859375,
+          123.02588653564453,
+          288.6021423339844
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 79,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          343.7480163574219,
+          123.02588653564453,
+          356.8878173828125
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 83,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          398.33270263671875,
+          123.02588653564453,
+          411.4725036621094
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 87,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          452.91741943359375,
+          123.02588653564453,
+          466.0572204589844
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 92,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          603.1898193359375,
+          123.02588653564453,
+          616.32958984375
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 96,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          671.3659057617188,
+          123.02588653564453,
+          684.5056762695312
+        ],
+        "page": 3,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 102,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          179.8843231201172,
+          123.02588653564453,
+          193.02410888671875
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 107,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          316.4556579589844,
+          123.02588653564453,
+          329.595458984375
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 109,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          357.3393859863281,
+          123.02588653564453,
+          370.47918701171875
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 113,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          425.62506103515625,
+          123.02588653564453,
+          438.7648620605469
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 115,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          480.2097473144531,
+          123.02588653564453,
+          493.34954833984375
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 119,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          548.4954833984375,
+          123.02588653564453,
+          561.63525390625
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 121,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          575.787841796875,
+          123.02588653564453,
+          588.9276123046875
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 125,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          644.0735473632812,
+          123.02588653564453,
+          657.2133178710938
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 127,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          671.3659057617188,
+          123.02588653564453,
+          684.5056762695312
+        ],
+        "page": 4,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 132,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          125.29960632324219,
+          123.02588653564453,
+          138.43939208984375
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 134,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          179.8843231201172,
+          123.02588653564453,
+          193.02410888671875
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 136,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          207.1766815185547,
+          123.02588653564453,
+          220.31646728515625
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 140,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          261.7613525390625,
+          123.02588653564453,
+          274.9011535644531
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 144,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          313.27703857421875,
+          123.02588653564453,
+          326.4168395996094
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 148,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          367.8617248535156,
+          123.02588653564453,
+          381.00152587890625
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 150,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          395.1540832519531,
+          123.02588653564453,
+          408.29388427734375
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 153,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          422.4464416503906,
+          123.02588653564453,
+          435.58624267578125
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 157,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          477.1407470703125,
+          123.02588653564453,
+          490.2805480957031
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 161,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          559.017822265625,
+          123.02588653564453,
+          572.1575927734375
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 163,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          627.3035278320312,
+          123.02588653564453,
+          640.4432983398438
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 167,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          695.5892333984375,
+          123.02588653564453,
+          708.72900390625
+        ],
+        "page": 5,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 171,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          125.29960632324219,
+          123.02588653564453,
+          138.43939208984375
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 173,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          193.47569274902344,
+          123.02588653564453,
+          206.615478515625
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 177,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          261.7613525390625,
+          123.02588653564453,
+          274.9011535644531
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 179,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          289.0537109375,
+          123.02588653564453,
+          302.1935119628906
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 182,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          316.4556579589844,
+          123.02588653564453,
+          329.595458984375
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 185,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          357.3393859863281,
+          123.02588653564453,
+          370.47918701171875
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 187,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          384.6317443847656,
+          123.02588653564453,
+          397.77154541015625
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 189,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          425.62506103515625,
+          123.02588653564453,
+          438.7648620605469
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 193,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          493.9107360839844,
+          123.02588653564453,
+          507.050537109375
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 195,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          521.203125,
+          123.02588653564453,
+          534.3428955078125
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 197,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          589.4888305664062,
+          123.02588653564453,
+          602.6286010742188
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 201,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          657.7744750976562,
+          123.02588653564453,
+          670.9142456054688
+        ],
+        "page": 6,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 205,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          193.47569274902344,
+          123.02588653564453,
+          206.615478515625
+        ],
+        "page": 7,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      },
+      {
+        "id": 208,
+        "phrase": "¾",
+        "bbox": [
+          113.62679290771484,
+          248.1699676513672,
+          123.02588653564453,
+          261.30975341796875
+        ],
+        "page": 7,
+        "font": "Wingdings-Regular",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 0,
+        "num_st": 0,
+        "is_center": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "smallest_id": 181,
+    "visual_properties": {
+      "font": "ArialMT",
+      "size": 11.837647438049316,
+      "bold": 0,
+      "is_underline": 0,
+      "all_cap": 1
+    },
+    "phrases": [
+      {
+        "id": 181,
+        "phrase": "TBD",
+        "bbox": [
+          239.02301025390625,
+          316.3846435546875,
+          269.38653564453125,
+          329.6072998046875
+        ],
+        "page": 6,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 1
+      },
+      {
+        "id": 207,
+        "phrase": "TBD",
+        "bbox": [
+          239.02301025390625,
+          248.09893798828125,
+          269.38653564453125,
+          261.32159423828125
+        ],
+        "page": 7,
+        "font": "ArialMT",
+        "size": 11.837647438049316,
+        "bold": 0,
+        "is_underline": 0,
+        "all_cap": 1,
+        "num_st": 0,
+        "is_center": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+Tree Structure:
+==================================================
+ROOT
+├─ ABSTRACT
+├─ INTRODUCTION
+├─ BACKGROUND
+├─ METHODS
+├─ DISCUSSION
+├─ CONCLUSION
+├─ ACKNOWLEDGMENTS
+└─ REFERENCES
+  ├─ Author Keywords
+  ├─ ACM Classification Keywords
+  ├─ Starting to Track
+  ├─ Models of Personal Informatics
+  ├─ How People Track
+  ├─ Survey Methods
+  ├─ Lapsing and Infrequent Use
+  ├─ Limitations
+  ├─ DEVELOPMENT OF A LIVED INFORMATICS MODEL
+  ├─ Interview Methods
+  ├─ Deciding to Track
+  ├─ Using Tools for Value and Insight
+  ├─ Selecting Tools to Support Tracking Motivation
+  ├─ Stopping Tracking
+  ├─ Transitioning to a New Tool
+  ├─ Returning to Tracking with the Same Tool after a Lapse
+  ├─ Supporting Migration between Goals
+  └─ Effective Migration between Tools
+    ├─ MODEL STAGES ACROSS DOMAINS
+    ├─ Different Motivations for Deciding to Track
+    ├─ Selecting Tools
+    ├─ Tracking and Acting
+    ├─ Lapsing
+    ├─ Resuming
+    └─ Four Categories of Lapsing
+      ├─ Behavior Change Goals
+      ├─ Integration
+      └─ Reflection
+        ├─ Instrumental Tracking Goals
+        ├─ Curiosity
+        ├─ Differences by Domain
+        └─ Collection
+==================================================
