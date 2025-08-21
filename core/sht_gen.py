@@ -248,6 +248,31 @@ def phrase_merge(phrases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             if abs(current_y_center - last_y_center) > y_tolerance:
                 can_merge = False
         
+        # Additional check: don't merge bold phrases if they're not in the same row and first phrase is not close to right page boundary
+        if can_merge and (current_phrase['bold'] == 1 and last_phrase['bold'] == 1):
+            # Check if phrases are in the same row (similar y-coordinates)
+            current_y_center = (current_phrase['bbox'][1] + current_phrase['bbox'][3]) / 2
+            last_y_center = (last_phrase['bbox'][1] + last_phrase['bbox'][3]) / 2
+            
+            # Use font size as tolerance for row detection
+            font_size = current_phrase['size']
+            y_tolerance = font_size * 0.5  # Allow half a font size difference
+            
+            # If y-coordinates differ significantly (not in same row)
+            if abs(current_y_center - last_y_center) > y_tolerance:
+                # Check if the first phrase (last_phrase) is close to the right page boundary
+                # We need to estimate page width - use a reasonable default or get from context
+                # For now, assume page width is around 612 points (standard US Letter)
+                page_width = 612  # This could be made more dynamic
+                
+                # Calculate distance from right edge of first phrase to right page boundary
+                first_phrase_right_edge = last_phrase['bbox'][2]
+                distance_to_right_boundary = page_width - first_phrase_right_edge
+                
+                # If first phrase is not close to right boundary (more than 50 points away), don't merge
+                if distance_to_right_boundary > 50:
+                    can_merge = False
+        
         if can_merge:
             # Add to current group for merging
             current_group.append(current_phrase)
@@ -657,7 +682,7 @@ def cluster_filter(clusters: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 # Example usage and testing
 if __name__ == "__main__":
-    out_folder = 'out/paper'
+    out_folder = 'out/civic'
     os.makedirs(out_folder, exist_ok=True)
     
     tree_structure_file = f"{out_folder}/tree_structure.json"
@@ -701,7 +726,7 @@ if __name__ == "__main__":
     else:
         print("No existing tree structure found, running full pipeline...")
         # Example usage
-        pdf_file = "raw_data/paper/A Lived Informatics Model of Personal Informatics.pdf"
+        pdf_file = "raw_data/civic/https:www.malibucity.org:AgendaCenter:ViewFile:Agenda:_01262022-1835 (dragged) copy.pdf"
         phrases = phrase_visual_pattern_extraction(pdf_file)
         
         # Save original phrases to JSON file
