@@ -5,7 +5,11 @@ import sys
 
 # Add the core directory to the path to import sht_gen functions
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from sht_gen import phrase_visual_pattern_extraction, phrase_merge, phrase_clustering, save_clusters_to_json, tree_gen, save_phrases_to_json, save_tree_to_json, build_id_index, print_tree
+from sht_gen import (
+    phrase_visual_pattern_extraction, phrase_merge, phrase_clustering, 
+    save_clusters_to_json, tree_gen, save_phrases_to_json, save_tree_to_json, 
+    build_id_index, print_tree, cluster_filter, save_filtered_clusters_to_json
+)
 
 
 def pattern_extraction(tree: List[Dict[str, Any]]) -> Dict[int, List[Dict[str, Any]]]:
@@ -140,7 +144,7 @@ def analyze_patterns(patterns: Dict[int, List[Dict[str, Any]]]) -> Dict[str, Any
     return analysis
 
 
-def template_match(tree: List[Dict[str, Any]], doc_path: str) -> Dict[str, Any]:
+def template_match(tree: List[Dict[str, Any]], doc_path: str) -> tuple[bool, Dict[str, Any]]:
     """
     Match patterns from a tree template with patterns from a document.
     
@@ -149,7 +153,9 @@ def template_match(tree: List[Dict[str, Any]], doc_path: str) -> Dict[str, Any]:
         doc_path: Path to the document PDF file
         
     Returns:
-        Dictionary containing matching results and statistics
+        Tuple of (is_valid, template_match_results)
+        - is_valid: True if document matches template pattern, False otherwise
+        - template_match_results: Dictionary containing all matching results
     """
     print("=== Template Matching Process ===")
     
@@ -178,7 +184,7 @@ def template_match(tree: List[Dict[str, Any]], doc_path: str) -> Dict[str, Any]:
         
     except Exception as e:
         print(f"   Error processing document: {e}")
-        return {"error": f"Document processing failed: {e}"}
+        return False
     
     # Step 3: Create doc_pattern dict by matching template patterns with clustered phrases
     print("3. Creating doc_pattern dict...")
@@ -240,6 +246,32 @@ def template_match(tree: List[Dict[str, Any]], doc_path: str) -> Dict[str, Any]:
         is_valid_prefix = False
         print(f"   ✗ No matching patterns found")
     
+    # Create template match results
+    template_match_results = {
+        'template_patterns': template_patterns,
+        'doc_pattern': doc_pattern,
+        'clustered_phrases': clustered_phrases,
+        'is_valid_prefix': is_valid_prefix,
+        'doc_heights': sorted(doc_heights) if doc_heights else []
+    }
+    
+    return is_valid_prefix, template_match_results
+
+
+def tree_gen_template(clustered_phrases: List[Dict[str, Any]], doc_pattern: Dict, template_patterns: Dict[int, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+    """
+    Generate tree from filtered phrases based on template matching.
+    
+    Args:
+        clustered_phrases: Original clustered phrases from document
+        doc_pattern: Dictionary of matched patterns with heights
+        template_patterns: Template patterns extracted from tree
+        
+    Returns:
+        List of tree nodes
+    """
+    print("=== Tree Generation from Template ===")
+    
     # Step 5: Create filtered_phrases from clustered_phrases
     print("5. Creating filtered phrases...")
     filtered_phrases = []
@@ -283,14 +315,152 @@ def template_match(tree: List[Dict[str, Any]], doc_path: str) -> Dict[str, Any]:
         print(f"   Tree saved to: {tree_output_file}")
 
         print("\nTree Visualization:")
-        #output_file = 'out/paper/tree_visualization.txt'
         node_ids = build_id_index(tree_nodes)
         print_tree(node_ids, -1)
         
+        return tree_nodes
+        
     except Exception as e:
         print(f"   Error generating tree: {e}")
-        tree_nodes = []
+        return []
+
+
+def sht_clustering(doc_paths: List[str], output_dir: str = "out/clustering") -> Dict[str, Any]:
+    """
+    Cluster documents by maintaining a pool of distinct templates.
     
+    Args:
+        doc_paths: List of document PDF file paths
+        output_dir: Directory to save clustering results
+        
+    Returns:
+        Dictionary containing clustering results and statistics
+    """
+    print("=== SHT Clustering Process ===")
+    
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Initialize template pool
+    template_pool = []
+    clustering_results = {
+        'total_docs': len(doc_paths),
+        'template_pool_size': 0,
+        'docs_processed': 0,
+        'docs_matched': 0,
+        'docs_new_template': 0,
+        'doc_assignments': {},  # doc_path -> template_index
+        'template_sources': []  # List of template source documents
+    }
+    
+    for i, doc_path in enumerate(doc_paths):
+        print(f"\n--- Processing Document {i+1}/{len(doc_paths)}: {os.path.basename(doc_path)} ---")
+        
+        try:
+            # Check if document matches any existing template
+            matched_template_index = -1
+            matched_template = None
+            
+            for template_idx, template in enumerate(template_pool):
+                print(f"  Checking against template {template_idx + 1}...")
+                is_valid, _ = template_match(template, doc_path)
+                
+                if is_valid:
+                    print(f"  ✓ Document matches template {template_idx + 1}")
+                    matched_template_index = template_idx
+                    matched_template = template
+                    clustering_results['docs_matched'] += 1
+                    break
+                else:
+                    print(f"  ✗ Document does not match template {template_idx + 1}")
+            
+            if matched_template_index >= 0:
+                # Document matches existing template - generate tree using template
+                print(f"  Generating tree using existing template {matched_template_index + 1}...")
+                
+                # Get the template match results
+                _, template_results = template_match(matched_template, doc_path)
+                
+                # Generate tree using template
+                tree_nodes = tree_gen_template(
+                    template_results['clustered_phrases'],
+                    template_results['doc_pattern'],
+                    template_results['template_patterns']
+                )
+                
+                # Save tree with template reference
+                tree_output_file = os.path.join(output_dir, f"doc_{i+1}_template_{matched_template_index+1}_tree.json")
+                save_tree_to_json(tree_nodes, tree_output_file)
+                
+                clustering_results['doc_assignments'][doc_path] = {
+                    'template_index': matched_template_index,
+                    'template_source': clustering_results['template_sources'][matched_template_index],
+                    'tree_file': tree_output_file,
+                    'method': 'template_match'
+                }
+                
+            else:
+                # Document doesn't match any template - create new template
+                print(f"  Creating new template for document...")
+                
+                # Process document using full sht_gen pipeline
+                doc_phrases = phrase_visual_pattern_extraction(doc_path)
+                merged_phrases = phrase_merge(doc_phrases)
+                clustered_phrases = phrase_clustering(merged_phrases)
+                filtered_clusters = cluster_filter(clustered_phrases)
+                new_template = tree_gen(filtered_clusters)
+                
+                # Add new template to pool
+                template_pool.append(new_template)
+                clustering_results['template_sources'].append(doc_path)
+                clustering_results['docs_new_template'] += 1
+                
+                # Save new template
+                template_output_file = os.path.join(output_dir, f"template_{len(template_pool)}_source_{os.path.basename(doc_path)}.json")
+                save_tree_to_json(new_template, template_output_file)
+                
+                # Save document's tree (same as template for new documents)
+                tree_output_file = os.path.join(output_dir, f"doc_{i+1}_new_template_tree.json")
+                save_tree_to_json(new_template, tree_output_file)
+                
+                clustering_results['doc_assignments'][doc_path] = {
+                    'template_index': len(template_pool) - 1,
+                    'template_source': doc_path,
+                    'tree_file': tree_output_file,
+                    'method': 'new_template'
+                }
+                
+                print(f"  ✓ Created new template {len(template_pool)}")
+            
+            clustering_results['docs_processed'] += 1
+            
+        except Exception as e:
+            print(f"  ✗ Error processing document: {e}")
+            clustering_results['doc_assignments'][doc_path] = {
+                'template_index': -1,
+                'template_source': None,
+                'tree_file': None,
+                'method': 'error',
+                'error': str(e)
+            }
+    
+    # Update final statistics
+    clustering_results['template_pool_size'] = len(template_pool)
+    
+    # Save clustering results
+    results_file = os.path.join(output_dir, "clustering_results.json")
+    with open(results_file, 'w', encoding='utf-8') as f:
+        json.dump(clustering_results, f, indent=2, ensure_ascii=False)
+    
+    # Print summary
+    print(f"\n=== Clustering Summary ===")
+    print(f"Total documents processed: {clustering_results['docs_processed']}")
+    print(f"Documents matched to existing templates: {clustering_results['docs_matched']}")
+    print(f"Documents requiring new templates: {clustering_results['docs_new_template']}")
+    print(f"Final template pool size: {clustering_results['template_pool_size']}")
+    print(f"Results saved to: {results_file}")
+    
+    return clustering_results
 
 
 def print_pattern_summary(patterns: Dict[int, List[Dict[str, Any]]]):
